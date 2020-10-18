@@ -1,0 +1,23 @@
+.selectRow {
+	background:yellow;
+}
+
+.containerButtonsCRUD {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.buttonsAddAndUpdate {
+	text-decoration: none;
+	background-color: #e8c45f;
+	color: white;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.buttonRemove {
+	background-color: #e8c45f;
+	color: white;
+	border: 2px solid black;
+}

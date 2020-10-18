@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Продукт</title>
+		<link rel="stylesheet" href="/nutritionManager-1.0.0/styles/product.css"/>
+	</head>
+	
+	<body>
+		<h1 id="productNameHeader">Продукт: </h1>
+		
+		<div class="containerButtonsSaveAndCancel">
+			<button class="buttonSave" id="saveProductButton">Сохранить</button>
+			<a class="buttonBack" id="backToProductsButton" href="/nutritionManager-1.0.0/products">Назад</a>
+		</div>
+		
+		<div>
+		
+			<label class="productFiled">Название:<input size="40" id="productNameInput"/></label>
+			<label class="productFiled">Ед. измерения:<input size="40" id="productUnitInput"/></label>
+			<label class="productFiled">Средняя цена:<input id="productAveragePriceInput" disabled="true"></label>
+			<label class="productFiled">Средняя каллорийность:<input id="productAverageCaloriesInput" disabled="true"></label>
+			
+			<div class="pricesAndCalories">
+			
+				<div class="priceBlock">
+					<h4 class="headerPrices">Цены</h4>
+					
+					<div class="innerPriceBlock">
+						<div class="buttonsPrices" id="productPricesListButtons">
+							<button class="buttonPrice" id="addPriceButton">Добавить</button>
+							<button class="buttonPrice" id="removePriceButton">Удалить</button>
+						</div>
+						<div class="listPrices" id="productPricesList">
+						</div>
+					</div>
+				</div>
+				
+				<div class="caloriesBlock">
+					<h4 class="headerCalories">Каллорийность</h4>
+					
+					<div class="innerCaloriesBlock">
+						<div class="buttonsCalories" id="productCaloriesListButtons">
+							<button class="buttonCalories" id="addCaloriesButton">Добавить</button>
+							<button class="buttonCalories" id="removeCaloriesButton">Удалить</button>
+						</div>
+						<div class="listCalories" id="productCaloriesList">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="/nutritionManager-1.0.0/scripts/product.js"></script>
+	</body>
+	
+</html>
