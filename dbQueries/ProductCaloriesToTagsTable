@@ -1,0 +1,7 @@
+CREATE TABLE ProductCaloriesToTags (
+    caloriesId INT NOT NULL,
+    tagId INT NOT NULL,
+    PRIMARY KEY(caloriesId, tagId),
+    FOREIGN KEY(caloriesId) REFERENCES ProductCalories(id) ON DELETE CASCADE,
+    FOREIGN KEY(tagId) REFERENCES ProductTags(id) ON DELETE CASCADE
+);

@@ -1,0 +1,7 @@
+CREATE TABLE ProductsToPrices (
+    productId INT NOT NULL,
+    priceId INT NOT NULL,
+    PRIMARY KEY(productId, priceId),
+    FOREIGN KEY(productId) REFERENCES Products(id) ON DELETE CASCADE,
+    FOREIGN KEY(priceId) REFERENCES ProductPrices(id) ON DELETE CASCADE
+);

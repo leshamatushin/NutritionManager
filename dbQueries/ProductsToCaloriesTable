@@ -1,0 +1,7 @@
+CREATE TABLE ProductsToCalories (
+    productId INT NOT NULL,
+    caloriesId INT NOT NULL,
+    PRIMARY KEY(productId, caloriesId),
+    FOREIGN KEY(productId) REFERENCES Products(id) ON DELETE CASCADE,
+    FOREIGN KEY(caloriesId) REFERENCES ProductCalories(id) ON DELETE CASCADE
+);

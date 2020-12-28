@@ -1,0 +1,163 @@
+.containerButtonsSaveAndCancel {
+	width: 100%;
+	background: #e8c45f;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+.buttonSave {
+	background-color: white;
+	border: 2px solid black;
+	padding: 2px;
+}
+
+.buttonBack {
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	padding: 2px;
+	border: 2px solid black;
+}
+
+.productFiled {
+	display: block;
+	padding-top: 20px;
+}
+
+.pricesAndCalories {
+	display: flex;
+}
+
+.priceBlock {
+	flex-basis: 48%;
+}
+
+.caloriesBlock {
+	flex-basis: 48%;
+}
+
+.headerPrices {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.headerCalories {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.innerPriceBlock {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.innerCaloriesBlock {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.buttonsPrices {
+	background: #e8c45f;
+	flex-basis: 20%;
+	padding-bottom: 10px;
+}
+
+.buttonsCalories {
+	background: #e8c45f;
+	flex-basis: 20%;
+	padding-bottom: 10px;
+}
+
+.buttonPrice {
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.buttonCalories {
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.listPrices {
+	display: block;
+	width: 80%;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.listCalories {
+	display: block;
+	width: 80%;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*                      Prices and Calories                         */
+
+.productPriceCommonContainer {
+	display: flex;
+	background-color: #fcba03;
+	margin: 15px;
+	border-radius: 5px;
+}
+
+.productPriceTagsContainer {
+	flex-basis: 70%;
+}
+
+.productPriceLabel {
+	display: block;
+}
+
+
+.productCaloriesCommonContainer {
+	display: flex;
+	background-color: #fcba03;
+	margin: 15px;
+	border-radius: 5px;
+}
+
+.productCaloriesTagsContainer {
+	flex-basis: 70%;
+}
+
+.productCaloriesLabel {
+	display: block;
+}
+
+
+/*                     Tags                                */
+
+.productTagContainer {
+	background-color: #968e75;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.tagName {
+	margin: 4px;
+	display: inline;
+	width: 35%;
+}
+
+.tagValue {
+	margin: 4px;
+	display: inline;
+	width: 35%;
+}
